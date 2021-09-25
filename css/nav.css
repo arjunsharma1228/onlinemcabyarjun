@@ -32,7 +32,7 @@ body {
 
 #navbar {
   overflow:auto;
-  background-color:darkcyan;
+  background-color:rgb(255, 255, 255);
   padding: 70px 10px;
   transition: 0.4s;
   position: fixed;
@@ -55,8 +55,8 @@ body {
 }
 
 #navbar #logo {
-  font-size: 50px;
-  font-weight: bold;
+ width: 200px;
+ margin-left: 20px;
   transition: 0.4s;
 }
 
@@ -76,18 +76,31 @@ body {
 
 @media screen and (max-width: 580px) {
   #navbar {
-    padding: 10px 10px !important;
-    background-color: rgb(185, 192, 191);
+    padding:0px 0px !important;
+    background-color: rgb(247, 206, 25);
+    height: 200px;
+    display: inline-flex;
+    
   }
   #navbar a {
     
-    display: block;
+    display: inline-flex;
     text-align: left;
-    margin: 10px;
+    margin: 1px;
+    font-size: 1em;
     
   }
-  #navbar-right {
-    float: right;
+  #navbar-right, {
+    
+  }
+
+  #navbar #logo{
+
+    width: 500px;
+
+    
+
+    
   }
 }
 
