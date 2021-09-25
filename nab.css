@@ -22,3 +22,22 @@
   background-color: #ddd;
   color: rgb(13, 102, 5);
 }
+
+
+@media screen and (max-width: 580px) {
+    embed{
+        width: auto;
+    }
+
+    label{
+        width: 120px;
+    }
+    .tabs-container{
+        width: 120px;
+
+    }
+
+    h1{
+        font-size: small;
+    }
+}
