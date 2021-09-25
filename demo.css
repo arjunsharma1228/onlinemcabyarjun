@@ -24,7 +24,7 @@ body {
     color: #222;
     font-size: 100%;
     line-height: 24px;
-    margin: 10px;
+    margin: 10;
     margin-top: 100PX;
 	padding:0;
 	font-family: "Raleway",sans-serif;
@@ -90,7 +90,7 @@ h2 span {
 	display:inline-block;
 }
 .ScriptTop li a {
-    background: #09041f none repeat scroll 0 0;
+    background: #1e0680 none repeat scroll 0 0;
     color: #fff;
     display: inline-block;
     font-size: 24px;
